@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EE8FD3F166586B500401606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD3E166586B500401606 /* Foundation.framework */; };
+		7EE8FD44166586B600401606 /* Bus_Plus_Core.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7EE8FD43166586B600401606 /* Bus_Plus_Core.h */; };
+		7EE8FD46166586B600401606 /* Bus_Plus_Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD45166586B600401606 /* Bus_Plus_Core.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EE8FD39166586B500401606 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				7EE8FD44166586B600401606 /* Bus_Plus_Core.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7EE8FD3B166586B500401606 /* libBus Plus Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBus Plus Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE8FD3E166586B500401606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EE8FD42166586B500401606 /* Bus Plus Core-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bus Plus Core-Prefix.pch"; sourceTree = "<group>"; };
+		7EE8FD43166586B600401606 /* Bus_Plus_Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bus_Plus_Core.h; sourceTree = "<group>"; };
+		7EE8FD45166586B600401606 /* Bus_Plus_Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bus_Plus_Core.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EE8FD38166586B500401606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE8FD3F166586B500401606 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EE8FD30166586B500401606 = {
+			isa = PBXGroup;
+			children = (
+				7EE8FD40166586B500401606 /* Bus Plus Core */,
+				7EE8FD3D166586B500401606 /* Frameworks */,
+				7EE8FD3C166586B500401606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EE8FD3C166586B500401606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8FD3B166586B500401606 /* libBus Plus Core.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EE8FD3D166586B500401606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8FD3E166586B500401606 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EE8FD40166586B500401606 /* Bus Plus Core */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8FD43166586B600401606 /* Bus_Plus_Core.h */,
+				7EE8FD45166586B600401606 /* Bus_Plus_Core.m */,
+				7EE8FD41166586B500401606 /* Supporting Files */,
+			);
+			path = "Bus Plus Core";
+			sourceTree = "<group>";
+		};
+		7EE8FD41166586B500401606 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8FD42166586B500401606 /* Bus Plus Core-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EE8FD3A166586B500401606 /* Bus Plus Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE8FD49166586B600401606 /* Build configuration list for PBXNativeTarget "Bus Plus Core" */;
+			buildPhases = (
+				7EE8FD37166586B500401606 /* Sources */,
+				7EE8FD38166586B500401606 /* Frameworks */,
+				7EE8FD39166586B500401606 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bus Plus Core";
+			productName = "Bus Plus Core";
+			productReference = 7EE8FD3B166586B500401606 /* libBus Plus Core.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EE8FD32166586B500401606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Migrant Studios";
+			};
+			buildConfigurationList = 7EE8FD35166586B500401606 /* Build configuration list for PBXProject "Bus Plus Core" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7EE8FD30166586B500401606;
+			productRefGroup = 7EE8FD3C166586B500401606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EE8FD3A166586B500401606 /* Bus Plus Core */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EE8FD37166586B500401606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE8FD46166586B600401606 /* Bus_Plus_Core.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7EE8FD47166586B600401606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EE8FD48166586B600401606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE8FD4A166586B600401606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Bus_Plus_Core.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bus Plus Core/Bus Plus Core-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7EE8FD4B166586B600401606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Bus_Plus_Core.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bus Plus Core/Bus Plus Core-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EE8FD35166586B500401606 /* Build configuration list for PBXProject "Bus Plus Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE8FD47166586B600401606 /* Debug */,
+				7EE8FD48166586B600401606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EE8FD49166586B600401606 /* Build configuration list for PBXNativeTarget "Bus Plus Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE8FD4A166586B600401606 /* Debug */,
+				7EE8FD4B166586B600401606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EE8FD32166586B500401606 /* Project object */;
+}
