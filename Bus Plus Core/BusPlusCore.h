@@ -1,13 +1,13 @@
 //
-//  Bus_Plus_Core.m
+//  Bus_Plus_Core.h
 //  Bus Plus Core
 //
 //  Created by Aubrey Goodman on 11/27/12.
 //  Copyright (c) 2012 Migrant Studios. All rights reserved.
 //
 
-#import "Bus_Plus_Core.h"
+#import <Foundation/Foundation.h>
 
-@implementation Bus_Plus_Core
+@interface BusPlusCore : NSObject
 
 @end

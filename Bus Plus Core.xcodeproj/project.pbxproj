@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7EE8FD3F166586B500401606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD3E166586B500401606 /* Foundation.framework */; };
-		7EE8FD44166586B600401606 /* Bus_Plus_Core.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7EE8FD43166586B600401606 /* Bus_Plus_Core.h */; };
-		7EE8FD46166586B600401606 /* Bus_Plus_Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD45166586B600401606 /* Bus_Plus_Core.m */; };
+		7EE8FD44166586B600401606 /* BusPlusCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7EE8FD43166586B600401606 /* BusPlusCore.h */; };
+		7EE8FD46166586B600401606 /* BusPlusCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD45166586B600401606 /* BusPlusCore.m */; };
 		7EE8FD4F1665870400401606 /* Passenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD4E1665870400401606 /* Passenger.m */; };
 		7EE8FD5E1665878000401606 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD5D1665878000401606 /* CoreData.framework */; };
 		7EE8FD761665884A00401606 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD6B166587ED00401606 /* libRestKit.a */; };
@@ -70,7 +70,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				7EE8FD44166586B600401606 /* Bus_Plus_Core.h in CopyFiles */,
+				7EE8FD44166586B600401606 /* BusPlusCore.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +80,8 @@
 		7EE8FD3B166586B500401606 /* libBusPlusCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBusPlusCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE8FD3E166586B500401606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7EE8FD42166586B500401606 /* Bus Plus Core-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bus Plus Core-Prefix.pch"; sourceTree = "<group>"; };
-		7EE8FD43166586B600401606 /* Bus_Plus_Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bus_Plus_Core.h; sourceTree = "<group>"; };
-		7EE8FD45166586B600401606 /* Bus_Plus_Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bus_Plus_Core.m; sourceTree = "<group>"; };
+		7EE8FD43166586B600401606 /* BusPlusCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusPlusCore.h; sourceTree = "<group>"; };
+		7EE8FD45166586B600401606 /* BusPlusCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusPlusCore.m; sourceTree = "<group>"; };
 		7EE8FD4D1665870400401606 /* Passenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
 		7EE8FD4E1665870400401606 /* Passenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passenger.m; sourceTree = "<group>"; };
 		7EE8FD5D1665878000401606 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -139,8 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				7EE8FD4C166586DE00401606 /* Core */,
-				7EE8FD43166586B600401606 /* Bus_Plus_Core.h */,
-				7EE8FD45166586B600401606 /* Bus_Plus_Core.m */,
+				7EE8FD43166586B600401606 /* BusPlusCore.h */,
+				7EE8FD45166586B600401606 /* BusPlusCore.m */,
 				7EE8FD41166586B500401606 /* Supporting Files */,
 			);
 			path = "Bus Plus Core";
@@ -277,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE8FD46166586B600401606 /* Bus_Plus_Core.m in Sources */,
+				7EE8FD46166586B600401606 /* BusPlusCore.m in Sources */,
 				7EE8FD4F1665870400401606 /* Passenger.m in Sources */,
 				7EE8FD79166588D200401606 /* Candidate.m in Sources */,
 				7EE8FD7C166588DE00401606 /* Vehicle.m in Sources */,
@@ -350,12 +350,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bus Plus Core/Bus Plus Core-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				OBJROOT = "$(SRCROOT)/Build";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
 				PRODUCT_NAME = BusPlusCore;
+				PUBLIC_HEADERS_FOLDER_PATH = ../../Headers/BusPlusCore;
 				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/Build/Products";
 			};
 			name = Debug;
 		};
@@ -366,12 +369,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bus Plus Core/Bus Plus Core-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				OBJROOT = "$(SRCROOT)/Build";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
 				PRODUCT_NAME = BusPlusCore;
+				PUBLIC_HEADERS_FOLDER_PATH = ../../Headers/BusPlusCore;
 				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/Build/Products";
 			};
 			name = Release;
 		};
