@@ -14,10 +14,12 @@
 @interface Vehicle : NSManagedObject <RKLoadable>
 
 @property (strong) NSNumber* vehicleId;
+@property (strong) NSNumber* driverId;
 @property (strong) NSString* token;
 @property (strong) NSNumber* latitude;
 @property (strong) NSNumber* longitude;
 @property (strong) NSNumber* seatsAvailable;
+@property (strong) NSNumber* onDuty;
 @property (strong) NSSet* passengers;
 @property (strong) Driver* driver;
 

@@ -10,7 +10,7 @@
 
 @implementation Vehicle
 
-@dynamic vehicleId, token, latitude, longitude, seatsAvailable, passengers, driver;
+@dynamic vehicleId, driverId, token, latitude, longitude, seatsAvailable, onDuty, passengers, driver;
 
 + (void)initObjectLoader:(RKObjectManager*)aMgr
 {
@@ -31,6 +31,7 @@
     [tMapping mapKeyPath:@"driver_id" toAttribute:@"driverId"];
     [tMapping mapKeyPath:@"latitude" toAttribute:@"latitude"];
     [tMapping mapKeyPath:@"longitude" toAttribute:@"longitude"];
+    [tMapping mapKeyPath:@"on_duty" toAttribute:@"onDuty"];
     [tMapping mapKeyPath:@"seats_available" toAttribute:@"seatsAvailable"];
     tMapping.primaryKeyAttribute = @"vehicleId";
     return tMapping;
@@ -42,6 +43,9 @@
     [tMapping mapKeyPath:@"driverId" toAttribute:@"driver_id"];
     [tMapping mapKeyPath:@"latitude" toAttribute:@"latitude"];
     [tMapping mapKeyPath:@"longitude" toAttribute:@"longitude"];
+    [tMapping mapKeyPath:@"onDuty" toAttribute:@"on_duty"];
+    [tMapping mapKeyPath:@"seatsAvailable" toAttribute:@"seats_available"];
+    [tMapping mapKeyPath:@"token" toAttribute:@"token"];
     tMapping.rootKeyPath = @"vehicle";
     return tMapping;
 }
