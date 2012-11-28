@@ -20,6 +20,7 @@
 		7EE8FDEC166596D200401606 /* Driver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE8FDDD1665958300401606 /* Driver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EE8FDED166596D400401606 /* Passenger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE8FDDF1665958300401606 /* Passenger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EE8FDEE166596D700401606 /* Vehicle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE8FDE11665958300401606 /* Vehicle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE8FE331665BD5600401606 /* RKLoadable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE8FE2D1665B79600401606 /* RKLoadable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		7EE8FDF11665972900401606 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		7EE8FDF21665972900401606 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7EE8FDF31665972900401606 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7EE8FE2D1665B79600401606 /* RKLoadable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RKLoadable.h; path = BusPlusCore/RKLoadable.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				7EE8FDE01665958300401606 /* Passenger.m */,
 				7EE8FDE11665958300401606 /* Vehicle.h */,
 				7EE8FDE21665958300401606 /* Vehicle.m */,
+				7EE8FE2D1665B79600401606 /* RKLoadable.h */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				7EE8FDED166596D400401606 /* Passenger.h in Headers */,
 				7EE8FDEE166596D700401606 /* Vehicle.h in Headers */,
 				7EE8FDEC166596D200401606 /* Driver.h in Headers */,
+				7EE8FE331665BD5600401606 /* RKLoadable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
