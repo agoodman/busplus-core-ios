@@ -10,6 +10,6 @@
 
 @implementation Passenger
 
-@dynamic passengerId, startLatitude, startLongitude, endLatitude, endLongitude, assignedAt;
+@dynamic passengerId, token, startLatitude, startLongitude, endLatitude, endLongitude, assignedAt;
 
 @end
