@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		7EE8FD3F166586B500401606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD3E166586B500401606 /* Foundation.framework */; };
-		7EE8FD44166586B600401606 /* BusPlusCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7EE8FD43166586B600401606 /* BusPlusCore.h */; };
-		7EE8FD46166586B600401606 /* BusPlusCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD45166586B600401606 /* BusPlusCore.m */; };
-		7EE8FD4F1665870400401606 /* Passenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD4E1665870400401606 /* Passenger.m */; };
 		7EE8FD5E1665878000401606 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD5D1665878000401606 /* CoreData.framework */; };
 		7EE8FD761665884A00401606 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD6B166587ED00401606 /* libRestKit.a */; };
-		7EE8FD79166588D200401606 /* Candidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD78166588D200401606 /* Candidate.m */; };
-		7EE8FD7C166588DE00401606 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD7B166588DE00401606 /* Vehicle.m */; };
-		7EE8FD7F166588E700401606 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD7E166588E700401606 /* Driver.m */; };
+		7EE8FDDA1665957900401606 /* BusPlusCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FDD91665957900401606 /* BusPlusCore.m */; };
+		7EE8FDE31665958300401606 /* Candidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FDDC1665958300401606 /* Candidate.m */; };
+		7EE8FDE41665958300401606 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FDDE1665958300401606 /* Driver.m */; };
+		7EE8FDE51665958300401606 /* Passenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FDE01665958300401606 /* Passenger.m */; };
+		7EE8FDE61665958300401606 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FDE21665958300401606 /* Vehicle.m */; };
+		7EE8FDEA166596CA00401606 /* BusPlusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE8FDD81665957900401606 /* BusPlusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE8FDEB166596D000401606 /* Candidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE8FDDB1665958300401606 /* Candidate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE8FDEC166596D200401606 /* Driver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE8FDDD1665958300401606 /* Driver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE8FDED166596D400401606 /* Passenger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE8FDDF1665958300401606 /* Passenger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE8FDEE166596D700401606 /* Vehicle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE8FDE11665958300401606 /* Vehicle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,35 +67,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		7EE8FD39166586B500401606 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				7EE8FD44166586B600401606 /* BusPlusCore.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		7EE8FD3B166586B500401606 /* libBusPlusCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBusPlusCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE8FD3E166586B500401606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7EE8FD42166586B500401606 /* Bus Plus Core-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bus Plus Core-Prefix.pch"; sourceTree = "<group>"; };
-		7EE8FD43166586B600401606 /* BusPlusCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusPlusCore.h; sourceTree = "<group>"; };
-		7EE8FD45166586B600401606 /* BusPlusCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusPlusCore.m; sourceTree = "<group>"; };
-		7EE8FD4D1665870400401606 /* Passenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
-		7EE8FD4E1665870400401606 /* Passenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passenger.m; sourceTree = "<group>"; };
 		7EE8FD5D1665878000401606 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
-		7EE8FD77166588D200401606 /* Candidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candidate.h; sourceTree = "<group>"; };
-		7EE8FD78166588D200401606 /* Candidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candidate.m; sourceTree = "<group>"; };
-		7EE8FD7A166588DE00401606 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
-		7EE8FD7B166588DE00401606 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
-		7EE8FD7D166588E700401606 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
-		7EE8FD7E166588E700401606 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		7EE8FDD81665957900401606 /* BusPlusCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusPlusCore.h; path = BusPlusCore/BusPlusCore.h; sourceTree = SOURCE_ROOT; };
+		7EE8FDD91665957900401606 /* BusPlusCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusPlusCore.m; path = BusPlusCore/BusPlusCore.m; sourceTree = SOURCE_ROOT; };
+		7EE8FDDB1665958300401606 /* Candidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Candidate.h; path = BusPlusCore/Candidate.h; sourceTree = SOURCE_ROOT; };
+		7EE8FDDC1665958300401606 /* Candidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Candidate.m; path = BusPlusCore/Candidate.m; sourceTree = SOURCE_ROOT; };
+		7EE8FDDD1665958300401606 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Driver.h; path = BusPlusCore/Driver.h; sourceTree = SOURCE_ROOT; };
+		7EE8FDDE1665958300401606 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Driver.m; path = BusPlusCore/Driver.m; sourceTree = SOURCE_ROOT; };
+		7EE8FDDF1665958300401606 /* Passenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Passenger.h; path = BusPlusCore/Passenger.h; sourceTree = SOURCE_ROOT; };
+		7EE8FDE01665958300401606 /* Passenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Passenger.m; path = BusPlusCore/Passenger.m; sourceTree = SOURCE_ROOT; };
+		7EE8FDE11665958300401606 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = BusPlusCore/Vehicle.h; sourceTree = SOURCE_ROOT; };
+		7EE8FDE21665958300401606 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vehicle.m; path = BusPlusCore/Vehicle.m; sourceTree = SOURCE_ROOT; };
+		7EE8FDE71665958D00401606 /* Bus Plus Core-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bus Plus Core-Prefix.pch"; path = "BusPlusCore/Bus Plus Core-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7EE8FDEF1665972900401606 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7EE8FDF01665972900401606 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		7EE8FDF11665972900401606 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7EE8FDF21665972900401606 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7EE8FDF31665972900401606 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +125,11 @@
 		7EE8FD3D166586B500401606 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EE8FDEF1665972900401606 /* CFNetwork.framework */,
+				7EE8FDF01665972900401606 /* libxml2.dylib */,
+				7EE8FDF11665972900401606 /* MobileCoreServices.framework */,
+				7EE8FDF21665972900401606 /* Security.framework */,
+				7EE8FDF31665972900401606 /* SystemConfiguration.framework */,
 				7EE8FD5D1665878000401606 /* CoreData.framework */,
 				7EE8FD3E166586B500401606 /* Foundation.framework */,
 			);
@@ -138,9 +139,9 @@
 		7EE8FD40166586B500401606 /* Bus Plus Core */ = {
 			isa = PBXGroup;
 			children = (
+				7EE8FDD81665957900401606 /* BusPlusCore.h */,
+				7EE8FDD91665957900401606 /* BusPlusCore.m */,
 				7EE8FD4C166586DE00401606 /* Core */,
-				7EE8FD43166586B600401606 /* BusPlusCore.h */,
-				7EE8FD45166586B600401606 /* BusPlusCore.m */,
 				7EE8FD41166586B500401606 /* Supporting Files */,
 			);
 			path = "Bus Plus Core";
@@ -149,7 +150,7 @@
 		7EE8FD41166586B500401606 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7EE8FD42166586B500401606 /* Bus Plus Core-Prefix.pch */,
+				7EE8FDE71665958D00401606 /* Bus Plus Core-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,14 +158,14 @@
 		7EE8FD4C166586DE00401606 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				7EE8FD4D1665870400401606 /* Passenger.h */,
-				7EE8FD4E1665870400401606 /* Passenger.m */,
-				7EE8FD77166588D200401606 /* Candidate.h */,
-				7EE8FD78166588D200401606 /* Candidate.m */,
-				7EE8FD7A166588DE00401606 /* Vehicle.h */,
-				7EE8FD7B166588DE00401606 /* Vehicle.m */,
-				7EE8FD7D166588E700401606 /* Driver.h */,
-				7EE8FD7E166588E700401606 /* Driver.m */,
+				7EE8FDDB1665958300401606 /* Candidate.h */,
+				7EE8FDDC1665958300401606 /* Candidate.m */,
+				7EE8FDDD1665958300401606 /* Driver.h */,
+				7EE8FDDE1665958300401606 /* Driver.m */,
+				7EE8FDDF1665958300401606 /* Passenger.h */,
+				7EE8FDE01665958300401606 /* Passenger.m */,
+				7EE8FDE11665958300401606 /* Vehicle.h */,
+				7EE8FDE21665958300401606 /* Vehicle.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -183,6 +184,21 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7EE8FDE9166596C300401606 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE8FDEA166596CA00401606 /* BusPlusCore.h in Headers */,
+				7EE8FDEB166596D000401606 /* Candidate.h in Headers */,
+				7EE8FDED166596D400401606 /* Passenger.h in Headers */,
+				7EE8FDEE166596D700401606 /* Vehicle.h in Headers */,
+				7EE8FDEC166596D200401606 /* Driver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		7EE8FD3A166586B500401606 /* BusPlusCore */ = {
 			isa = PBXNativeTarget;
@@ -190,7 +206,7 @@
 			buildPhases = (
 				7EE8FD37166586B500401606 /* Sources */,
 				7EE8FD38166586B500401606 /* Frameworks */,
-				7EE8FD39166586B500401606 /* CopyFiles */,
+				7EE8FDE9166596C300401606 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -277,11 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE8FD46166586B600401606 /* BusPlusCore.m in Sources */,
-				7EE8FD4F1665870400401606 /* Passenger.m in Sources */,
-				7EE8FD79166588D200401606 /* Candidate.m in Sources */,
-				7EE8FD7C166588DE00401606 /* Vehicle.m in Sources */,
-				7EE8FD7F166588E700401606 /* Driver.m in Sources */,
+				7EE8FDDA1665957900401606 /* BusPlusCore.m in Sources */,
+				7EE8FDE31665958300401606 /* Candidate.m in Sources */,
+				7EE8FDE41665958300401606 /* Driver.m in Sources */,
+				7EE8FDE51665958300401606 /* Passenger.m in Sources */,
+				7EE8FDE61665958300401606 /* Vehicle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,13 +364,14 @@
 			buildSettings = {
 				DSTROOT = /tmp/Bus_Plus_Core.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bus Plus Core/Bus Plus Core-Prefix.pch";
+				GCC_PREFIX_HEADER = "BusPlusCore/Bus Plus Core-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				OBJROOT = "$(SRCROOT)/Build";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
 				PRODUCT_NAME = BusPlusCore;
 				PUBLIC_HEADERS_FOLDER_PATH = ../../Headers/BusPlusCore;
 				SKIP_INSTALL = YES;
@@ -367,13 +384,14 @@
 			buildSettings = {
 				DSTROOT = /tmp/Bus_Plus_Core.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bus Plus Core/Bus Plus Core-Prefix.pch";
+				GCC_PREFIX_HEADER = "BusPlusCore/Bus Plus Core-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				OBJROOT = "$(SRCROOT)/Build";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
 				PRODUCT_NAME = BusPlusCore;
 				PUBLIC_HEADERS_FOLDER_PATH = ../../Headers/BusPlusCore;
 				SKIP_INSTALL = YES;
