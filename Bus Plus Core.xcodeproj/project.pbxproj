@@ -10,7 +10,58 @@
 		7EE8FD3F166586B500401606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD3E166586B500401606 /* Foundation.framework */; };
 		7EE8FD44166586B600401606 /* Bus_Plus_Core.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7EE8FD43166586B600401606 /* Bus_Plus_Core.h */; };
 		7EE8FD46166586B600401606 /* Bus_Plus_Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD45166586B600401606 /* Bus_Plus_Core.m */; };
+		7EE8FD4F1665870400401606 /* Passenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD4E1665870400401606 /* Passenger.m */; };
+		7EE8FD5E1665878000401606 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD5D1665878000401606 /* CoreData.framework */; };
+		7EE8FD761665884A00401606 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE8FD6B166587ED00401606 /* libRestKit.a */; };
+		7EE8FD79166588D200401606 /* Candidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD78166588D200401606 /* Candidate.m */; };
+		7EE8FD7C166588DE00401606 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD7B166588DE00401606 /* Vehicle.m */; };
+		7EE8FD7F166588E700401606 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8FD7E166588E700401606 /* Driver.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EE8FD6A166587ED00401606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		7EE8FD6C166587ED00401606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		7EE8FD6E166587ED00401606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		7EE8FD70166587ED00401606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		7EE8FD72166587ED00401606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		7EE8FD74166587F700401606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		7EE8FD39166586B500401606 /* CopyFiles */ = {
@@ -31,6 +82,16 @@
 		7EE8FD42166586B500401606 /* Bus Plus Core-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bus Plus Core-Prefix.pch"; sourceTree = "<group>"; };
 		7EE8FD43166586B600401606 /* Bus_Plus_Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bus_Plus_Core.h; sourceTree = "<group>"; };
 		7EE8FD45166586B600401606 /* Bus_Plus_Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bus_Plus_Core.m; sourceTree = "<group>"; };
+		7EE8FD4D1665870400401606 /* Passenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
+		7EE8FD4E1665870400401606 /* Passenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passenger.m; sourceTree = "<group>"; };
+		7EE8FD5D1665878000401606 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		7EE8FD77166588D200401606 /* Candidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candidate.h; sourceTree = "<group>"; };
+		7EE8FD78166588D200401606 /* Candidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candidate.m; sourceTree = "<group>"; };
+		7EE8FD7A166588DE00401606 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		7EE8FD7B166588DE00401606 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		7EE8FD7D166588E700401606 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		7EE8FD7E166588E700401606 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE8FD761665884A00401606 /* libRestKit.a in Frameworks */,
+				7EE8FD5E1665878000401606 /* CoreData.framework in Frameworks */,
 				7EE8FD3F166586B500401606 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +111,7 @@
 		7EE8FD30166586B500401606 = {
 			isa = PBXGroup;
 			children = (
+				7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */,
 				7EE8FD40166586B500401606 /* Bus Plus Core */,
 				7EE8FD3D166586B500401606 /* Frameworks */,
 				7EE8FD3C166586B500401606 /* Products */,
@@ -65,6 +129,7 @@
 		7EE8FD3D166586B500401606 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EE8FD5D1665878000401606 /* CoreData.framework */,
 				7EE8FD3E166586B500401606 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -73,6 +138,7 @@
 		7EE8FD40166586B500401606 /* Bus Plus Core */ = {
 			isa = PBXGroup;
 			children = (
+				7EE8FD4C166586DE00401606 /* Core */,
 				7EE8FD43166586B600401606 /* Bus_Plus_Core.h */,
 				7EE8FD45166586B600401606 /* Bus_Plus_Core.m */,
 				7EE8FD41166586B500401606 /* Supporting Files */,
@@ -86,6 +152,33 @@
 				7EE8FD42166586B500401606 /* Bus Plus Core-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EE8FD4C166586DE00401606 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8FD4D1665870400401606 /* Passenger.h */,
+				7EE8FD4E1665870400401606 /* Passenger.m */,
+				7EE8FD77166588D200401606 /* Candidate.h */,
+				7EE8FD78166588D200401606 /* Candidate.m */,
+				7EE8FD7A166588DE00401606 /* Vehicle.h */,
+				7EE8FD7B166588DE00401606 /* Vehicle.m */,
+				7EE8FD7D166588E700401606 /* Driver.h */,
+				7EE8FD7E166588E700401606 /* Driver.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7EE8FD60166587EC00401606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8FD6B166587ED00401606 /* libRestKit.a */,
+				7EE8FD6D166587ED00401606 /* RestKitTests.octest */,
+				7EE8FD6F166587ED00401606 /* RestKit.framework */,
+				7EE8FD71166587ED00401606 /* RestKitFrameworkTests.octest */,
+				7EE8FD73166587ED00401606 /* RestKitResources.bundle */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +195,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7EE8FD75166587F700401606 /* PBXTargetDependency */,
 			);
 			name = "Bus Plus Core";
 			productName = "Bus Plus Core";
@@ -127,6 +221,12 @@
 			mainGroup = 7EE8FD30166586B500401606;
 			productRefGroup = 7EE8FD3C166586B500401606 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7EE8FD60166587EC00401606 /* Products */;
+					ProjectRef = 7EE8FD5F166587EC00401606 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7EE8FD3A166586B500401606 /* Bus Plus Core */,
@@ -134,16 +234,66 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7EE8FD6B166587ED00401606 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 7EE8FD6A166587ED00401606 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EE8FD6D166587ED00401606 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 7EE8FD6C166587ED00401606 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EE8FD6F166587ED00401606 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 7EE8FD6E166587ED00401606 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EE8FD71166587ED00401606 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 7EE8FD70166587ED00401606 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EE8FD73166587ED00401606 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 7EE8FD72166587ED00401606 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EE8FD37166586B500401606 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7EE8FD46166586B600401606 /* Bus_Plus_Core.m in Sources */,
+				7EE8FD4F1665870400401606 /* Passenger.m in Sources */,
+				7EE8FD79166588D200401606 /* Candidate.m in Sources */,
+				7EE8FD7C166588DE00401606 /* Vehicle.m in Sources */,
+				7EE8FD7F166588E700401606 /* Driver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EE8FD75166587F700401606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 7EE8FD74166587F700401606 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7EE8FD47166586B600401606 /* Debug */ = {
@@ -199,7 +349,11 @@
 				DSTROOT = /tmp/Bus_Plus_Core.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bus Plus Core/Bus Plus Core-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -211,7 +365,11 @@
 				DSTROOT = /tmp/Bus_Plus_Core.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bus Plus Core/Bus Plus Core-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
