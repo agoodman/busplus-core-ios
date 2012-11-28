@@ -77,7 +77,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7EE8FD3B166586B500401606 /* libBus Plus Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBus Plus Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE8FD3B166586B500401606 /* libBusPlusCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBusPlusCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE8FD3E166586B500401606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7EE8FD42166586B500401606 /* Bus Plus Core-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bus Plus Core-Prefix.pch"; sourceTree = "<group>"; };
 		7EE8FD43166586B600401606 /* Bus_Plus_Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bus_Plus_Core.h; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		7EE8FD3C166586B500401606 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EE8FD3B166586B500401606 /* libBus Plus Core.a */,
+				7EE8FD3B166586B500401606 /* libBusPlusCore.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7EE8FD3A166586B500401606 /* Bus Plus Core */ = {
+		7EE8FD3A166586B500401606 /* BusPlusCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EE8FD49166586B600401606 /* Build configuration list for PBXNativeTarget "Bus Plus Core" */;
+			buildConfigurationList = 7EE8FD49166586B600401606 /* Build configuration list for PBXNativeTarget "BusPlusCore" */;
 			buildPhases = (
 				7EE8FD37166586B500401606 /* Sources */,
 				7EE8FD38166586B500401606 /* Frameworks */,
@@ -197,9 +197,9 @@
 			dependencies = (
 				7EE8FD75166587F700401606 /* PBXTargetDependency */,
 			);
-			name = "Bus Plus Core";
+			name = BusPlusCore;
 			productName = "Bus Plus Core";
-			productReference = 7EE8FD3B166586B500401606 /* libBus Plus Core.a */;
+			productReference = 7EE8FD3B166586B500401606 /* libBusPlusCore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				7EE8FD3A166586B500401606 /* Bus Plus Core */,
+				7EE8FD3A166586B500401606 /* BusPlusCore */,
 			);
 		};
 /* End PBXProject section */
@@ -354,7 +354,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BusPlusCore;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -370,7 +370,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BusPlusCore;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -387,13 +387,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EE8FD49166586B600401606 /* Build configuration list for PBXNativeTarget "Bus Plus Core" */ = {
+		7EE8FD49166586B600401606 /* Build configuration list for PBXNativeTarget "BusPlusCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EE8FD4A166586B600401606 /* Debug */,
 				7EE8FD4B166586B600401606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
