@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RKLoadable.h"
+#import "Vehicle.h"
 
-@interface Passenger : NSManagedObject
+
+@interface Passenger : NSManagedObject <RKLoadable>
 
 @property (strong) NSNumber* passengerId;
 @property (strong) NSString* token;
@@ -16,6 +19,8 @@
 @property (strong) NSNumber* startLongitude;
 @property (strong) NSNumber* endLatitude;
 @property (strong) NSNumber* endLongitude;
+@property (strong) NSNumber* vehicleId;
+@property (strong) Vehicle* vehicle;
 @property (strong) NSDate* assignedAt;
 
 @end

@@ -7,13 +7,15 @@
 //
 
 #import <CoreData/CoreData.h>
+#import "RKLoadable.h"
 
 
 @class Vehicle;
 
-@interface Driver : NSManagedObject
+@interface Driver : NSManagedObject <RKLoadable>
 
 @property (strong) NSNumber* driverId;
+@property (strong) NSString* email;
 @property (strong) NSString* firstName;
 @property (strong) NSString* lastName;
 @property (strong) NSString* licenseNumber;

@@ -7,11 +7,12 @@
 //
 
 #import <CoreData/CoreData.h>
+#import "RKLoadable.h"
 #import "Vehicle.h"
 #import "Passenger.h"
 
 
-@interface Candidate : NSManagedObject
+@interface Candidate : NSManagedObject <RKLoadable>
 
 @property (strong) NSNumber* candidateId;
 @property (strong) NSNumber* passengerId;

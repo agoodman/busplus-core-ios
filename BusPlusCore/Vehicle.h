@@ -7,10 +7,11 @@
 //
 
 #import <CoreData/CoreData.h>
+#import "RKLoadable.h"
 #import "Driver.h"
 
 
-@interface Vehicle : NSManagedObject
+@interface Vehicle : NSManagedObject <RKLoadable>
 
 @property (strong) NSNumber* vehicleId;
 @property (strong) NSString* token;

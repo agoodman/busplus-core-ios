@@ -6,8 +6,10 @@
 //  Copyright (c) 2012 Migrant Studios. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface BusPlusCore : NSObject
-
-@end
+#import <CoreData/CoreData.h>
+#import <RestKit/RestKit.h>
+#import "RKLoadable.h"
+#import "Passenger.h"
+#import "Vehicle.h"
+#import "Candidate.h"
+#import "Driver.h"
