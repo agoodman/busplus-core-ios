@@ -22,5 +22,6 @@
 @property (strong) NSNumber* vehicleId;
 @property (strong) Vehicle* vehicle;
 @property (strong) NSDate* assignedAt;
+@property (strong) NSString* destinationDisplay;
 
 @end
