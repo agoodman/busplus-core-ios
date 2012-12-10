@@ -10,7 +10,7 @@
 
 @implementation Passenger
 
-@dynamic passengerId, token, startLatitude, startLongitude, endLatitude, endLongitude, vehicleId, vehicle, assignedAt;
+@dynamic passengerId, token, startLatitude, startLongitude, endLatitude, endLongitude, vehicleId, vehicle, assignedAt, pickupAt, dropoffAt;
 
 + (void)initObjectLoader:(RKObjectManager*)aMgr
 {
@@ -33,6 +33,8 @@
     [tMapping mapKeyPath:@"end_longitude" toAttribute:@"endLongitude"];
     [tMapping mapKeyPath:@"assigned_at" toAttribute:@"assignedAt"];
     [tMapping mapKeyPath:@"vehicle_id" toAttribute:@"vehicleId"];
+    [tMapping mapKeyPath:@"pickup_at" toAttribute:@"pickupAt"];
+    [tMapping mapKeyPath:@"dropoff_at" toAttribute:@"dropoffAt"];
     tMapping.primaryKeyAttribute = @"passengerId";
     return tMapping;
 }

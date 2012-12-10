@@ -22,5 +22,7 @@
 @property (strong) NSNumber* vehicleId;
 @property (strong) Vehicle* vehicle;
 @property (strong) NSDate* assignedAt;
+@property (strong) NSDate* pickupAt;
+@property (strong) NSDate* dropoffAt;
 
 @end
