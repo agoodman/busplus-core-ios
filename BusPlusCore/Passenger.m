@@ -10,7 +10,7 @@
 
 @implementation Passenger
 
-@dynamic passengerId, token, startLatitude, startLongitude, endLatitude, endLongitude, vehicleId, vehicle, assignedAt, pickupAt, dropoffAt;
+@dynamic passengerId, token, startLatitude, startLongitude, endLatitude, endLongitude, vehicleId, vehicle, assignedAt, pickupAt, dropoffAt, destinationDisplay;
 
 + (void)initObjectLoader:(RKObjectManager*)aMgr
 {

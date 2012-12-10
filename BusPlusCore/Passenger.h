@@ -24,5 +24,6 @@
 @property (strong) NSDate* assignedAt;
 @property (strong) NSDate* pickupAt;
 @property (strong) NSDate* dropoffAt;
+@property (strong) NSString* destinationDisplay;
 
 @end
